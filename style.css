@@ -1,13 +1,21 @@
 body{
     font-family: 'Noto Serif', serif;
-    /*font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Noto Serif', serif;
-    font-family: 'Poppins', sans-serif;*/
+            /*font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Lobster', cursive;
+            font-family: 'Noto Serif', serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Secular One', sans-serif;*/
     margin: 0 ;
 }
 h1{
     font-size: 50px;
     font-weight: bold;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
 }
 p{
     font-size: 19px;
@@ -27,11 +35,18 @@ p{
 .half-width img{
     width: 70%;
 }
-.mission-heading{
+
+#content-margin{
+    display: flex;
+}
+#margin{
     border-left: 5px solid;
-    height: 127px;
+    height: 106px;
     border-image: linear-gradient(#f6b73c, #4d9f0c);
     border-image-slice: 1;
+    margin-top: 57px;
+}
+#heading h1{
     line-height: 68px;
     padding-left: 15px;
     letter-spacing: 4px;
@@ -56,18 +71,135 @@ p{
     padding-top: 35px;
     font-size: 16px;
 }
-
+#mission-container{
+    margin-bottom: 80px;
+}
 #mission-container h1{
     text-align: center;
     margin-bottom: 30px;
 }
 .mission-item{
-    width: 30%;
+    width: 25%;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 5px 10px  4px#cac2c2;
 
 }
 .mission-item img{
-    width: 50%;
+    width: 40%;
 }
 #first-item{
-    padding-left: 0px;
+    margin-left: 60px;
+    background-color: #edf5f6;
+}
+#second-item{
+    background-color: #ffeeee;
+}
+#third-item{
+    background-color: #fff4d6;
+    margin-right: 60px;
+}
+#develope-unlimit{
+    padding: 50px;
+}
+#coding{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position:left center;
+}
+#coding img{
+    margin-left: 40px;
+}
+#develop{
+    margin-left: -190px;
+
+}
+#develop h2,#community h2{
+    font-family: 'Secular One', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    margin-top:60px;
+    letter-spacing: 2px;
+}
+#develop p{
+    color: #4b4949;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 70px;
+}
+
+#project{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position:right bottom;
+    margin-right: 50px;
+    
+}
+#project img{
+   padding-left: 40px;
+   width: 80%;
+}
+#community p{
+    color: #4b4949;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 30px;
+    margin-right: -90px;
+    justify-content: right;
+}
+#community {
+   padding-left: 160px;
+}
+
+#contact-container{
+    background-color: #ddd3d3;
+    margin: 130px;
+    border-radius: 10px;
+    box-shadow: 5px 10px  4px#cac2c2;
+}
+#form-container h2{
+    text-align: center;
+}
+form{
+    box-sizing: border-box;
+}
+#fname, #mail, #subject {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    border: none;
+    cursor: pointer;
+  }
+
+  #logo img{
+      width: 500px;
+      height: 600px;
+  }
+
+footer{
+    background-color: #0b0d17;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+#footer-content{
+    padding: 10px;
+    text-align: center;
+}
+#footer-content h2{
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    
+}
+#footer-content span{
+    color: #ff5959;
+}
+small{
+    color: #d0d1d6;
+    font-family: 'Poppins', sans-serif;
+    
 }
